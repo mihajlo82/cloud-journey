@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <title>Elena's Cloud Journey - Server 01</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0B3D91 0%, #232F3E 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 16px;
+      padding: 48px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #FF9900;
+    }
+    .subtitle {
+      font-size: 16px;
+      opacity: 0.8;
+      margin-bottom: 32px;
+    }
+    .info {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 8px;
+    }
+    .label { opacity: 0.7; }
+    .value { font-family: 'Courier New', monospace; color: #FF9900; }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      opacity: 0.6;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #1F8A4C;
+      border-radius: 12px;
+      font-size: 12px;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Elena's Cloud Lab <span class="badge">RUNNING</span></h1>
+    <p class="subtitle">First nginx server on Ubuntu 22.04 — AWS Cloud Engineer journey</p>
+
+    <div class="info">
+      <div class="row"><span class="label">Server:</span><span class="value">ubuntu-lab-01</span></div>
+      <div class="row"><span class="label">OS:</span><span class="value">Ubuntu Server 22.04 LTS</span></div>
+      <div class="row"><span class="label">Web server:</span><span class="value">nginx</span></div>
+      <div class="row"><span class="label">Phase:</span><span class="value">1 / 7 — Linux & Networking</span></div>
+      <div class="row"><span class="label">Exercise:</span><span class="value">1.4 — Web Server Setup</span></div>
+    </div>
+
+    <div class="footer">
+      Built with curiosity. Deployed with sudo.
+    </div>
+  </div>
+</body>
+</html>
