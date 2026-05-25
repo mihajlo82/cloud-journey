@@ -49,3 +49,22 @@ Watch the monitor print `*** ALARM ***` lines.
 - Signal handling (`signal.SIGINT`) for graceful shutdown
 - `pathlib.Path` (modern path manipulation)
 - Infinite loops with exception isolation
+
+###################################################
+
+# Cloud Journey
+
+My path to becoming an AWS Cloud Engineer. Practical exercises, mini-projects, and notes.
+
+## Phases
+
+- **Phase 1:** Linux & Networking — *complete*
+  - Exercise 1.4: [nginx web server setup](./exercise-1.4-nginx/)
+- **Phase 2:** Bash, Python, Git — *complete*
+  - Exercise 2.2: [Python API client](./exercise-2.2-python/)
+  - Exercise 2.4: [System monitor (capstone)](./exercise-2.4-monitor/)
+- **Phase 3:** AWS Cloud Practitioner — *next*
+
+## About
+
+Following a 9-month roadmap from beginner to junior cloud engineer.
