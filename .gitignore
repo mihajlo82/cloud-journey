@@ -1,0 +1,5 @@
+# Logs and runtime data
+metrics.csv
+*.log
+__pycache__/
+*.pyc
